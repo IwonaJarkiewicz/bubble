@@ -6,8 +6,8 @@ class Ksiazka {
         this.przeczytana = przeczytana;
     }
     opiszKsiazke() {
-        var text = "Książka ma tytuł" + this.tytul +
-            ", autorem jest" + this.autor + "i została ";
+        var text = "Książka ma tytuł " + this.tytul +
+            ", autorem jest " + this.autor + " i została ";
         if (this.przeczytana) {
             text += ' przeczytana.';
         } else {
